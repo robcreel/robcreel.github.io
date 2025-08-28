@@ -1,0 +1,134 @@
+---
+title: "Rob Creel - Data Portfolio"
+# author: "Rob Creel"
+format: html
+editor: source
+theme: morph
+toc: true
+toc-title: ""
+toc-location: left
+# smooth-scroll: true
+link-external-newwindow: true
+---
+
+## Home
+
+
+I am a Data Analytics Engineer with a master’s degree in mathematics and strong proficiency in R, Python, and SQL. I'm seeking a mid-level to senior Data Analytics Engineer role at a late stage startup in the city of Chicago with a dedicated data team and a strong culture of team cohesion and accomplishment.
+
+## About
+
+:::: {.grid}
+
+::: {.g-col-8}
+Who am I?
+
+I love helping people. My passions are math and data, but when I am not managing data pipelines or building dashboards, I enjoy brewing coffee and taking photographs.
+
+My area of focus is listening and engaging those who need value out of data. I meet people where they are and work collaboratively to create a path to value from the givens (the data) which has buy-in from all parties.
+
+:::
+
+::: {.g-col-4}
+![](public/RobProPortrait.jpg){.lightbox}
+
+:::
+
+::::
+
+## Portfolio
+
+:::: {.grid}
+::: {.g-col-4}
+![](public/app_text_predict.png){.lightbox}
+
+[See project](https://robcreel.shinyapps.io/text/){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to text prediction app."}
+
+:::
+
+::: {.g-col-8}
+### Text Prediction App
+This Shiny App was written by Rob Creel for the Data Science Capstone course taught through Coursera by faculty of the Biostatistics Department at the Johns Hopkins Bloomberg School of Public Health. Try it out by typing some words in the text field in the link.
+:::
+::::
+
+:::: {.grid}
+::: {.g-col-8}
+### CAMS Attendance Digest
+This application convert PDF attendence reports from CAMS into a useful, digestible format.
+:::
+::: {.g-col-4}
+![](public/app_attendance_dashboard.png){.lightbox}
+
+[See project](https://robcreel.shinyapps.io/attendance/){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to attendance dashboard."}
+
+:::
+::::
+
+
+## Experience
+:::: {.grid}
+::: {.g-col-6}
+
+<font size="2">
+May 2025 - Present
+</font>  
+**Data Engineer – EMR Integration Architect**  
+Performance AI
+
+<font size="2">
+October 2020 - February 2025
+</font>  
+**Data Analytics Engineer**  
+SEFA - Supply & Equipment Foodservice Alliance, LLC
+
+
+<font size="2">
+September 2011 - October 2020
+</font>  
+**Assistant Professor of Mathematics**  
+East-West University
+
+:::
+::: {.g-col-6}
+Skilled in automating pipelines and synthesizing complex datasets for diverse stakeholders. Adept at bridging technical and business domains and empowering organizations to make data-driven decisions.
+
+[View My Resume](https://docs.google.com/document/d/1yFKrVLxyMnuUwWtyXV7UXyNqY7M7ySj9gILOF3IfXKM/edit?usp=sharing){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to resume."}
+[LinkedIn](https://www.linkedin.com/in/robcreel){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to resume."}
+
+:::
+
+
+::::
+
+
+## Education
+:::: {.grid}
+::: {.g-col-6}
+###### Northwestern University 2019-2020
+Data Science and Visualization Program
+
+###### The Johns Hopkins University 2017-2018
+Data Science Specialization
+:::
+
+::: {.g-col-6}
+###### University of New Orleans 2008-2009
+Master of Science - Mathematics
+
+###### University of New Orleans 2002-2006
+Bachelor of Science - Mathematics
+:::
+::::
+
+
+
+## Contact
+
+
+[View My Resume](https://docs.google.com/document/d/1yFKrVLxyMnuUwWtyXV7UXyNqY7M7ySj9gILOF3IfXKM/edit?usp=sharing){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to resume."}
+[Email robcreel@gmail.com](mailto:robcreel@gmail.com){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Email Rob."}
+
+Location: Chicago, Illinois
+
+![](public/coffee.jpg){.lightbox}
