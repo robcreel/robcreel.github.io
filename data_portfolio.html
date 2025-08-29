@@ -100,23 +100,34 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="portfolio">Portfolio</h2>
 <div class="grid">
 <div class="g-col-4">
-<p><a href="public/app_text_predict.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="public/app_text_predict.png" class="img-fluid"></a></p>
-<p><a href="https://robcreel.shinyapps.io/text/" class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" title="Link to text prediction app.">See project</a></p>
+<p><br><br></p>
+<p><a href="public/state-of-the-data.html" class="external" target="_blank" data-toggle="tooltip" title="Link to product data dashboard."><img src="public/CulitradeLogoStackSquare.jpg" class="img-fluid"></a></p>
+<p><a href="public/state-of-the-data.html" class="external btn btn-outline-primary btn-sm" target="_blank" role="button" data-toggle="tooltip" title="Link to product data dashboard.">See project</a></p>
 </div>
+<section id="e-commerce-product-data-health-dashboard" class="level3 g-col-8">
+<h3 class="anchored" data-anchor-id="e-commerce-product-data-health-dashboard">E-commerce Product Data Health Dashboard</h3>
+<p>This dashboard served to benchmark the health of the product data for Culitrade, an e-commerce marketplace for dealerships of restaurant supply and equipment. The dashboard highlights the product records in the database (Oracle’s NetSuite ERP solution) and how many records were ready to display on the web site. The information is organized by manufacturer and by dealer, and has been anonymized as the data were proprietary.</p>
+</section>
+</div>
+<div class="grid">
 <section id="text-prediction-app" class="level3 g-col-8">
 <h3 class="anchored" data-anchor-id="text-prediction-app">Text Prediction App</h3>
 <p>This Shiny App was written by Rob Creel for the Data Science Capstone course taught through Coursera by faculty of the Biostatistics Department at the Johns Hopkins Bloomberg School of Public Health. Try it out by typing some words in the text field in the link.</p>
 </section>
+<div class="g-col-4">
+<p><br><br></p>
+<p><a href="https://robcreel.shinyapps.io/text/" data-toggle="tooltip" title="Link to text prediction app."><img src="public/app_text_predict.png" class="img-fluid"></a></p>
+<p><a href="https://robcreel.shinyapps.io/text/" class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" title="Link to text prediction app.">See project</a></p>
+</div>
 </div>
 <div class="grid">
+<div class="g-col-4">
+<p><a href="https://robcreel.shinyapps.io/attendance/" data-toggle="tooltip" title="Link to attendance dashboard."><img src="public/app_attendance_dashboard.png" class="img-fluid"></a> <a href="https://robcreel.shinyapps.io/attendance/" class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" title="Link to attendance dashboard.">See project</a></p>
+</div>
 <section id="cams-attendance-digest" class="level3 g-col-8">
 <h3 class="anchored" data-anchor-id="cams-attendance-digest">CAMS Attendance Digest</h3>
-<p>This application convert PDF attendence reports from CAMS into a useful, digestible format.</p>
+<p>At East-West University, where I taught math for nearly a decade, we used the classroom management tool CAMS. It produced attendance report PDFs which listed static, raw data and were difficult to glean patterns from. This application converts these PDF reports from CAMS into a useful, digestible HTML format.</p>
 </section>
-<div class="g-col-4">
-<p><a href="public/app_attendance_dashboard.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="public/app_attendance_dashboard.png" class="img-fluid"></a></p>
-<p><a href="https://robcreel.shinyapps.io/attendance/" class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" title="Link to attendance dashboard.">See project</a></p>
-</div>
 </div>
 </section>
 <section id="experience" class="level2">
@@ -168,7 +179,7 @@ East-West University</p>
 <h2 class="anchored" data-anchor-id="contact">Contact</h2>
 <p><a href="https://docs.google.com/document/d/1yFKrVLxyMnuUwWtyXV7UXyNqY7M7ySj9gILOF3IfXKM/edit?usp=sharing" class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" title="Link to resume.">View My Resume</a> <a href="mailto:robcreel@gmail.com" class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" title="Email Rob.">Email robcreel@gmail.com</a></p>
 <p>Location: Chicago, Illinois</p>
-<p><a href="public/coffee.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="public/coffee.jpg" class="img-fluid"></a></p>
+<p><a href="public/coffee.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="public/coffee.jpg" class="img-fluid"></a></p>
 </section>
 
 </main>
@@ -599,7 +610,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

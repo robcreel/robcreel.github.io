@@ -1,6 +1,5 @@
 ---
 title: "Rob Creel - Data Portfolio"
-# author: "Rob Creel"
 format: html
 editor: source
 theme: morph
@@ -40,28 +39,48 @@ My area of focus is listening and engaging those who need value out of data. I m
 
 :::: {.grid}
 ::: {.g-col-4}
-![](public/app_text_predict.png){.lightbox}
+<br><br/>
 
-[See project](https://robcreel.shinyapps.io/text/){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to text prediction app."}
+[![](public/CulitradeLogoStackSquare.jpg)](public/state-of-the-data.html){.external target="_blank" data-toggle="tooltip" title="Link to product data dashboard."}
 
+[See project](public/state-of-the-data.html){.external target="_blank" .btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to product data dashboard."}
 :::
+::: {.g-col-8}
+### E-commerce Product Data Health Dashboard
+This dashboard served to benchmark the health of the product data for Culitrade, an e-commerce marketplace for dealerships of restaurant supply and equipment.  The dashboard highlights the product records in the database (Oracle's NetSuite ERP solution) and how many records were ready to display on the web site.  The information is organized by manufacturer and by dealer, and has been anonymized as the data were proprietary.
+:::
+
+::::
+
+
+
+:::: {.grid}
 
 ::: {.g-col-8}
 ### Text Prediction App
 This Shiny App was written by Rob Creel for the Data Science Capstone course taught through Coursera by faculty of the Biostatistics Department at the Johns Hopkins Bloomberg School of Public Health. Try it out by typing some words in the text field in the link.
 :::
+::: {.g-col-4}
+<br><br/>
+
+
+[![](public/app_text_predict.png)](https://robcreel.shinyapps.io/text/){data-toggle="tooltip" title="Link to text prediction app."}
+
+[See project](https://robcreel.shinyapps.io/text/){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to text prediction app."}
+
+:::
 ::::
 
 :::: {.grid}
-::: {.g-col-8}
-### CAMS Attendance Digest
-This application convert PDF attendence reports from CAMS into a useful, digestible format.
-:::
 ::: {.g-col-4}
-![](public/app_attendance_dashboard.png){.lightbox}
 
+[![](public/app_attendance_dashboard.png)](https://robcreel.shinyapps.io/attendance/){data-toggle="tooltip" title="Link to attendance dashboard."}
 [See project](https://robcreel.shinyapps.io/attendance/){.btn .btn-outline-primary .btn-sm .btn role="button" data-toggle="tooltip" title="Link to attendance dashboard."}
 
+:::
+::: {.g-col-8}
+### CAMS Attendance Digest
+At East-West University, where I taught math for nearly a decade, we used the classroom management tool CAMS. It produced attendance report PDFs which listed static, raw data and were difficult to glean patterns from. This application converts these PDF reports from CAMS into a useful, digestible HTML format.
 :::
 ::::
 
