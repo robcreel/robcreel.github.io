@@ -13,7 +13,8 @@ link-external-newwindow: true
 ## Home
 
 
-I am a Data Analytics Engineer with a master’s degree in mathematics and strong proficiency in R, Python, and SQL. I'm seeking a mid-level to senior Data Analytics Engineer role at a late stage startup in the city of Chicago with a dedicated data team and a strong culture of team cohesion and accomplishment.
+I am a Data Analytics Engineer with a master’s degree in mathematics and strong proficiency in R, Python, SQL. Seeking a mid-level to senior Data Analytics Engineer role at a technology intensive company in the city of Chicago with a dedicated data team and a strong culture of team cohesion and accomplishment.
+
 
 ## About
 
